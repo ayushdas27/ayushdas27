@@ -1,249 +1,149 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🌊 HEADER BANNER                                               -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-![Header](https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=300&section=header&text=Ayush%20Das&fontSize=80&animation=twinkling&fontAlignY=35&desc=B.Tech%20CSE%20(AI%2FML)%20%7C%20Aspiring%20ML%20Engineer&descAlignY=55&descAlign=50&fontColor=ffffff)
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- ⌨️ TYPING SVG                                                   -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7DD3FC&center=true&vCenter=true&random=false&width=650&lines=AI+%26+Computer+Vision+Enthusiast+%F0%9F%A4%96;Building+ML+Systems+One+Project+at+a+Time+%F0%9F%9A%80;Chandrayaan-2+Imagery+%C2%B7+Urban+Intelligence+%F0%9F%8C%8D;Gamer+by+Night%2C+Coder+by+Morning+%F0%9F%8E%AE;Open+to+Collabs+%26+Internships+%F0%9F%94%97)](https://git.io/typing-svg)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=220&section=header&text=Ayush%20Das&fontSize=70&animation=twinkling&fontAlignY=35&desc=B.Tech%20CSE%20(AI%2FML)%20%E2%80%A2%20Aspiring%20ML%20Engineer&descAlignY=55&descAlign=50&fontColor=ffffff&descSize=18)
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 💼 OPEN TO WORK                                                 -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-![Open to Work](https://img.shields.io/badge/🔗_Open_to-Internships_%26_Collabs-7dd3fc?style=for-the-badge&logoColor=white)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=7DD3FC&center=true&vCenter=true&multiline=false&random=false&width=550&lines=building+ml+systems+one+project+at+a+time;computer+vision+%E2%80%A2+ai+%E2%80%A2+geospatial+intel;minimal.+chill.+shipping+anyway.+%E2%9A%A1;open+to+collabs+%26+internships)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 👁️ PROFILE VIEWS & FOLLOWERS                                   -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-![Profile Views](https://komarev.com/ghpvc/?username=ayushdas27&label=Profile%20Views&color=7dd3fc&style=flat-square)
-&nbsp;
-![Followers](https://img.shields.io/github/followers/ayushdas27?label=Followers&style=flat-square&color=7dd3fc&labelColor=1e293b)
-&nbsp;
-![Stars](https://img.shields.io/github/stars/ayushdas27?label=Total%20Stars&style=flat-square&color=7dd3fc&labelColor=1e293b)
+<img src="https://komarev.com/ghpvc/?username=ayushdas27&label=visitors&color=7dd3fc&style=flat&labelColor=0f172a" alt="visitors" />
+&ensp;
+<a href="https://github.com/ayushdas27?tab=followers"><img src="https://img.shields.io/github/followers/ayushdas27?style=flat&color=7dd3fc&labelColor=0f172a&label=followers" alt="followers" /></a>
+&ensp;
+<img src="https://img.shields.io/badge/open%20to-internships%20%26%20collabs-7dd3fc?style=flat&labelColor=0f172a" alt="open to work" />
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🧠 WHO I AM                                                     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🧠 Who I Am
+<!-- ── ABOUT ─────────────────────────────────────────────────── -->
 
 ```typescript
-const ayush: Developer = {
-    title      : "B.Tech CSE (AI/ML) | DPS Siliguri Alumnus",
-    stack      : ["Python", "C", "C#", "TypeScript", "Django", "MySQL"],
-    launchedProjects : [
-        "UrbanSight — AI-Powered Urban Intelligence Platform",
-        "LunarAlign — Chandrayaan-2 Lunar Image Correspondence",
-        "QUANTAM  — Smart Procurement Platform",
+const ayush = {
+    pronouns    : "he" as const,
+    title       : "B.Tech CSE (AI/ML) · DPS Siliguri Alumnus",
+    stack       : ["Python", "C", "C#", "TypeScript", "Django", "MySQL"],
+    projects    : {
+        urbanSight : "AI-powered urban intelligence — CV + geospatial",
+        lunarAlign : "Chandrayaan-2 lunar image correspondence system",
+        quantam    : "Smart digital procurement platform",
+    },
+    achievements: [
+        "Smart India Hackathon · AI/ML",
+        "Cybersecurity Workshop",
+        "AI-Driven NLP Workshop",
     ],
-    certifications : [
-        "Smart India Hackathon — AI/ML Software Solutions",
-        "Workshop — Cybersecurity",
-        "Workshop — AI-Driven NLP",
-    ],
-    status     : "Minimal. Chill. Shipping anyway. ⚡",
-    openTo     : ["Collabs", "Internships", "Interesting Problems"],
-};
+    motto       : "Minimal. Chill. Shipping anyway. ⚡",
+    openTo      : ["collabs", "internships", "interesting problems"],
+} as const;
 ```
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🚀 FEATURED PROJECTS                                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ── FEATURED PROJECTS ─────────────────────────────────────── -->
 
-## 🚀 Featured Projects
-
-### 🏙️ UrbanSight — Urban Mobility Intelligence Platform
+<h2 align="center">projects</h2>
 
 <div align="center">
+
 <a href="https://github.com/ayushdas27/urban-mobility-intelligence-platform">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=urban-mobility-intelligence-platform&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc" alt="UrbanSight repo card" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=urban-mobility-intelligence-platform&theme=transparent&hide_border=true&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&bg_color=0f172a" />
 </a>
-</div>
-
-> AI-powered urban intelligence platform that uses computer vision and public transport fleets to detect road issues, analyze traffic and provide geospatial insights.
-
-| Layer | Technology |
-|:------|:-----------|
-| **AI / ML** | Python · Computer Vision · ML Models |
-| **Analysis** | Geospatial Intelligence · Traffic Analytics |
-| **Detection** | Road Issue Detection · Public Fleet Monitoring |
-
-<p align="center">
-  <a href="https://github.com/ayushdas27/urban-mobility-intelligence-platform"><img src="https://img.shields.io/badge/🔗_View_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
----
-
-### 🌙 LunarAlign — Chandrayaan-2 Imagery Correspondence
-
-<div align="center">
+&nbsp;
 <a href="https://github.com/ayushdas27/lunar-align">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=lunar-align&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc" alt="LunarAlign repo card" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=lunar-align&theme=transparent&hide_border=true&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&bg_color=0f172a" />
 </a>
-</div>
 
-> AI-based lunar image correspondence system for identifying corresponding regions across Chandrayaan-2 imagery using computer vision and multimodal image analysis.
+<br/>
 
-| Layer | Technology |
-|:------|:-----------|
-| **AI / ML** | Python · Computer Vision · Multimodal Analysis |
-| **Imagery** | Chandrayaan-2 Satellite Data |
-| **Matching** | Region Correspondence · Image Alignment |
-
-<p align="center">
-  <a href="https://github.com/ayushdas27/lunar-align"><img src="https://img.shields.io/badge/🔗_View_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
----
-
-### 📦 QUANTAM — Smart Procurement Platform
-
-<div align="center">
 <a href="https://github.com/ayushdas27/QUANTAM">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=QUANTAM&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc" alt="QUANTAM repo card" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=QUANTAM&theme=transparent&hide_border=true&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&bg_color=0f172a" />
 </a>
+
 </div>
 
-> Digital procurement solution designed to streamline procurement workflows and make the process more accessible and efficient.
+<br/>
 
-| Layer | Technology |
-|:------|:-----------|
-| **Platform** | Digital Procurement Solution |
-| **Workflow** | Streamlined Procurement Automation |
-| **Goal** | Accessibility · Efficiency |
+<!-- ── TECH STACK ─────────────────────────────────────────────── -->
 
-<p align="center">
-  <a href="https://github.com/ayushdas27/QUANTAM"><img src="https://img.shields.io/badge/🔗_View_Code-1e293b?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🛠️ TECH STACK                                                   -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🛠️ Tech Stack
+<h2 align="center">stack</h2>
 
 <div align="center">
 
-#### 💻 Languages
-<img src="https://skillicons.dev/icons?i=py,c,cs,ts" alt="Languages" />
-
+<img src="https://skillicons.dev/icons?i=py,c,cs,ts&theme=dark" alt="languages" />
 <br/><br/>
-
-#### 🔧 Backend & Database
-<img src="https://skillicons.dev/icons?i=django,mysql" alt="Backend & Database" />
-
-<br/><br/>
-
-#### 🧰 Dev Tools
-<img src="https://skillicons.dev/icons?i=git,vscode,illustrator" alt="Dev Tools" />
+<img src="https://skillicons.dev/icons?i=django,mysql,git,vscode&theme=dark" alt="tools" />
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 📊 GITHUB STATS                                                 -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ── GITHUB STATS ──────────────────────────────────────────── -->
 
-## 📊 GitHub Stats
+<h2 align="center">stats</h2>
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ayushdas27&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=7dd3fc&icon_color=7dd3fc&hide_border=false&count_private=true" alt="GitHub Stats" />
+<img width="420" src="https://github-readme-stats.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" alt="stats" />
 &nbsp;
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=7dd3fc&langs_count=8&hide_border=false" alt="Top Languages" />
+<img width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&langs_count=6" alt="languages" />
 
 </div>
 
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🔥 STREAK STATS                                                 -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🔥 Streak Stats
+<br/>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=ayushdas27&theme=nord&border=7dd3fc&stroke=7dd3fc&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc&sideLabels=7dd3fc&dates=7dd3fc" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=7dd3fc&fire=7dd3fc&currStreakNum=7dd3fc&sideNums=7dd3fc&currStreakLabel=7dd3fc&sideLabels=94a3b8&dates=475569" alt="streak" />
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🏆 TROPHIES                                                     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🏆 GitHub Trophies
+<!-- ── TROPHIES ───────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ayushdas27&theme=nord&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=ayushdas27&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="trophies" />
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 📈 CONTRIBUTION ACTIVITY                                        -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 📈 Contribution Activity
+<!-- ── ACTIVITY GRAPH ────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushdas27&theme=nord&bg_color=2e3440&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&hide_border=false&border_color=7dd3fc&custom_title=Ayush's%20Contribution%20Graph" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushdas27&bg_color=0f172a&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&hide_border=true&area_color=7dd3fc" alt="activity" />
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🤝 CONNECT                                                      -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ── CONNECT ────────────────────────────────────────────────── -->
 
-## 🤝 Connect With Me
+<h2 align="center">connect</h2>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushdasofficial27112007/)
-&nbsp;
-[![X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/das_ayushh)
-&nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yu.shhh_/)
-&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushdps2020@gmail.com)
+<a href="https://www.linkedin.com/in/ayushdasofficial27112007/"><img src="https://img.shields.io/badge/linkedin-0f172a?style=for-the-badge&logo=linkedin&logoColor=7dd3fc" /></a>
+&ensp;
+<a href="https://x.com/das_ayushh"><img src="https://img.shields.io/badge/twitter-0f172a?style=for-the-badge&logo=x&logoColor=7dd3fc" /></a>
+&ensp;
+<a href="https://www.instagram.com/yu.shhh_/"><img src="https://img.shields.io/badge/instagram-0f172a?style=for-the-badge&logo=instagram&logoColor=7dd3fc" /></a>
+&ensp;
+<a href="mailto:ayushdps2020@gmail.com"><img src="https://img.shields.io/badge/gmail-0f172a?style=for-the-badge&logo=gmail&logoColor=7dd3fc" /></a>
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🌊 FOOTER BANNER                                               -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ── FOOTER ────────────────────────────────────────────────── -->
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=120&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:0f172a&height=100&section=footer)
 
 </div>
