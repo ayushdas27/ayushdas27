@@ -1,5 +1,7 @@
 <div align="center">
 
+<!-- ── HEADER ─────────────────────────────────────────────────── -->
+
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=220&section=header&text=Ayush%20Das&fontSize=70&animation=twinkling&fontAlignY=35&desc=B.Tech%20CSE%20(AI%2FML)%20%E2%80%A2%20Aspiring%20ML%20Engineer&descAlignY=55&descAlign=50&fontColor=ffffff&descSize=18)
 
 <br/>
@@ -47,21 +49,71 @@ const ayush = {
 <h2 align="center">projects</h2>
 
 <div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/ayushdas27/urban-mobility-intelligence-platform">
-  <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=urban-mobility-intelligence-platform&theme=transparent&hide_border=true&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&bg_color=0f172a" />
-</a>
-&nbsp;
-<a href="https://github.com/ayushdas27/lunar-align">
-  <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=lunar-align&theme=transparent&hide_border=true&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&bg_color=0f172a" />
-</a>
+<h3 align="center">🏙️ UrbanSight</h3>
+<p align="center">
+  <a href="https://github.com/ayushdas27/urban-mobility-intelligence-platform">
+    <img src="https://img.shields.io/badge/urban--mobility--intelligence--platform-0f172a?style=for-the-badge&logo=github&logoColor=7dd3fc" alt="repo" />
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ayushdas27/urban-mobility-intelligence-platform?style=flat&color=7dd3fc&labelColor=0f172a" />
+  <img src="https://img.shields.io/github/forks/ayushdas27/urban-mobility-intelligence-platform?style=flat&color=7dd3fc&labelColor=0f172a" />
+  <img src="https://img.shields.io/github/languages/top/ayushdas27/urban-mobility-intelligence-platform?style=flat&color=7dd3fc&labelColor=0f172a" />
+</p>
+<p align="center"><sub>AI-powered urban intelligence platform that uses computer vision and public transport fleets to detect road issues, analyze traffic and provide geospatial insights.</sub></p>
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-<a href="https://github.com/ayushdas27/QUANTAM">
-  <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=ayushdas27&repo=QUANTAM&theme=transparent&hide_border=true&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&bg_color=0f172a" />
-</a>
+<h3 align="center">🌙 LunarAlign</h3>
+<p align="center">
+  <a href="https://github.com/ayushdas27/lunar-align">
+    <img src="https://img.shields.io/badge/lunar--align-0f172a?style=for-the-badge&logo=github&logoColor=7dd3fc" alt="repo" />
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ayushdas27/lunar-align?style=flat&color=7dd3fc&labelColor=0f172a" />
+  <img src="https://img.shields.io/github/forks/ayushdas27/lunar-align?style=flat&color=7dd3fc&labelColor=0f172a" />
+  <img src="https://img.shields.io/github/languages/top/ayushdas27/lunar-align?style=flat&color=7dd3fc&labelColor=0f172a" />
+</p>
+<p align="center"><sub>AI-based lunar image correspondence system for identifying corresponding regions across Chandrayaan-2 imagery using computer vision and multimodal image analysis.</sub></p>
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">📦 QUANTAM</h3>
+<p align="center">
+  <a href="https://github.com/ayushdas27/QUANTAM">
+    <img src="https://img.shields.io/badge/QUANTAM-0f172a?style=for-the-badge&logo=github&logoColor=7dd3fc" alt="repo" />
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ayushdas27/QUANTAM?style=flat&color=7dd3fc&labelColor=0f172a" />
+  <img src="https://img.shields.io/github/forks/ayushdas27/QUANTAM?style=flat&color=7dd3fc&labelColor=0f172a" />
+  <img src="https://img.shields.io/github/languages/top/ayushdas27/QUANTAM?style=flat&color=7dd3fc&labelColor=0f172a" />
+</p>
+<p align="center"><sub>Digital procurement solution designed to streamline procurement workflows and make the process more accessible and efficient.</sub></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">✨ More Coming Soon</h3>
+<p align="center">
+  <a href="https://github.com/ayushdas27?tab=repositories">
+    <img src="https://img.shields.io/badge/view%20all%20repos-0f172a?style=for-the-badge&logo=github&logoColor=7dd3fc" alt="all repos" />
+  </a>
+</p>
+<p align="center"><sub>Exploring real-world applications of AI/ML — always building, always shipping.</sub></p>
+
+</td>
+</tr>
+</table>
 </div>
 
 <br/>
@@ -86,9 +138,17 @@ const ayush = {
 
 <div align="center">
 
-<img width="420" src="https://github-readme-stats.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" alt="stats" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=ffffff&title_color=0f172a&text_color=334155&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" />
+  <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" alt="stats" />
+</picture>
 &nbsp;
-<img width="370" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&langs_count=6" alt="languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&langs_count=6" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=ffffff&title_color=0f172a&text_color=334155&langs_count=6" />
+  <img width="370" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&langs_count=6" alt="languages" />
+</picture>
 
 </div>
 
@@ -96,7 +156,11 @@ const ayush = {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=7dd3fc&fire=7dd3fc&currStreakNum=7dd3fc&sideNums=7dd3fc&currStreakLabel=7dd3fc&sideLabels=94a3b8&dates=475569" alt="streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=7dd3fc&fire=7dd3fc&currStreakNum=7dd3fc&sideNums=7dd3fc&currStreakLabel=7dd3fc&sideLabels=94a3b8&dates=475569" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=ffffff&stroke=e2e8f0&ring=7dd3fc&fire=7dd3fc&currStreakNum=0f172a&sideNums=0f172a&currStreakLabel=7dd3fc&sideLabels=334155&dates=475569" />
+  <img src="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=7dd3fc&fire=7dd3fc&currStreakNum=7dd3fc&sideNums=7dd3fc&currStreakLabel=7dd3fc&sideLabels=94a3b8&dates=475569" alt="streak" />
+</picture>
 
 </div>
 
