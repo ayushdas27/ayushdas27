@@ -138,17 +138,9 @@ const ayush = {
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=ffffff&title_color=0f172a&text_color=334155&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" />
-  <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushdas27&show_icons=true&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&icon_color=7dd3fc&count_private=true&ring_color=7dd3fc" alt="stats" />
-</picture>
+<img width="420" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ayushdas27&theme=2077" alt="stats" />
 &nbsp;
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&langs_count=6" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=ffffff&title_color=0f172a&text_color=334155&langs_count=6" />
-  <img width="370" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushdas27&layout=compact&hide_border=true&bg_color=0f172a&title_color=7dd3fc&text_color=94a3b8&langs_count=6" alt="languages" />
-</picture>
+<img width="420" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ayushdas27&theme=2077" alt="top languages by repo" />
 
 </div>
 
@@ -156,31 +148,25 @@ const ayush = {
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=7dd3fc&fire=7dd3fc&currStreakNum=7dd3fc&sideNums=7dd3fc&currStreakLabel=7dd3fc&sideLabels=94a3b8&dates=475569" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=ffffff&stroke=e2e8f0&ring=7dd3fc&fire=7dd3fc&currStreakNum=0f172a&sideNums=0f172a&currStreakLabel=7dd3fc&sideLabels=334155&dates=475569" />
-  <img src="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=7dd3fc&fire=7dd3fc&currStreakNum=7dd3fc&sideNums=7dd3fc&currStreakLabel=7dd3fc&sideLabels=94a3b8&dates=475569" alt="streak" />
-</picture>
+<img width="420" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ayushdas27&theme=2077" alt="top languages by commit" />
+&nbsp;
+<img width="420" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ayushdas27&theme=2077&utcOffset=5.5" alt="productive time" />
 
 </div>
 
 <br/>
 
-<!-- ── TROPHIES ───────────────────────────────────────────────── -->
-
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ayushdas27&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="trophies" />
+<img width="860" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayushdas27&theme=2077" alt="contribution graph" />
 
 </div>
 
 <br/>
 
-<!-- ── ACTIVITY GRAPH ────────────────────────────────────────── -->
-
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushdas27&bg_color=0f172a&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&hide_border=true&area_color=7dd3fc" alt="activity" />
+<img src="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=141321&stroke=1e293b&ring=7dd3fc&fire=7dd3fc&currStreakNum=7dd3fc&sideNums=7dd3fc&currStreakLabel=7dd3fc&sideLabels=94a3b8&dates=475569" alt="streak" />
 
 </div>
 
