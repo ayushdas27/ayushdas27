@@ -77,22 +77,3 @@
 <img src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369" alt="Instagram" />
 </a>
 </p>
-
-<p>
-<img align="center"
-src="https://github-readme-stats.vercel.app/api?username=ayushdas27&show_icons=true&locale=en"
-alt="GitHub Stats" />
-</p>
-
-<p>
-<img align="center"
-src="https://github-readme-streak-stats.vercel.app/?user=ayushdas27"
-alt="GitHub Streak" />
-</p>
-
-<p>
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-<img src="https://github-profile-trophy.vercel.app/?username=ayushdas27"
-alt="GitHub Trophies" />
-</a>
-</p>
