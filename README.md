@@ -150,7 +150,7 @@ const ayush = {
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/ayushdasofficial27112007/"><img src="https://img.shields.io/badge/linkedin-0f172a?style=for-the-badge&logo=linkedin&logoColor=7dd3fc" /></a>
+<a href="https://www.linkedin.com/in/ayushdasofficial27112007/"><img src="https://img.shields.io/badge/linkedin-0f172a?style=for-the-badge&logo=linkedin&logoColor=34d399" /></a>
 &ensp;
 <a href="https://x.com/das_ayushh"><img src="https://img.shields.io/badge/twitter-0f172a?style=for-the-badge&logo=x&logoColor=34d399" /></a>
 &ensp;
