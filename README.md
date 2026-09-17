@@ -22,6 +22,10 @@
 
 <!-- ── ABOUT ─────────────────────────────────────────────────── -->
 
+<table>
+<tr>
+<td width="60%" valign="middle">
+
 ```typescript
 const ayush = {
     pronouns    : "he" as const,
@@ -42,11 +46,14 @@ const ayush = {
 } as const;
 ```
 
-<br/>
-<img align="right" alt="Developer at work" width="310" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
-<br clear="right" />
+</td>
+<td width="40%" valign="middle" align="center">
 
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:7dd3fc,100:34d399&height=3&section=header&animation=fadeIn)
+<img alt="Developer at work" width="300" height="300" style="object-fit:cover;" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
+
+</td>
+</tr>
+</table>
 
 <!-- ── FEATURED PROJECTS ─────────────────────────────────────── -->
 
