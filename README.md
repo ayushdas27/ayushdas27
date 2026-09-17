@@ -43,6 +43,10 @@ const ayush = {
 ```
 
 <br/>
+<img align="right" alt="Developer at work" width="310" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
+<br clear="right" />
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:7dd3fc,100:34d399&height=3&section=header&animation=fadeIn)
 
 <!-- ── FEATURED PROJECTS ─────────────────────────────────────── -->
 
