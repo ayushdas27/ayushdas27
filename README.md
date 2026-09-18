@@ -178,7 +178,7 @@ const ayush = {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=34d399&fire=7dd3fc&currStreakNum=34d399&sideNums=7dd3fc&currStreakLabel=34d399&sideLabels=94a3b8&dates=475569" alt="streak" />
+<img src="https://streak-stats.demolab.com?user=ayushdas27&hide_border=true&background=0f172a&stroke=1e293b&ring=34d399&fire=7dd3fc&currStreakNum=34d399&sideNums=7dd3fc&currStreakLabel=34d399&sideLabels=94a3b8&dates=475569" width="700" alt="streak" />
 
 </div>
 
