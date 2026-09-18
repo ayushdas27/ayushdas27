@@ -135,9 +135,7 @@ const ayush = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,c,cs,ts&theme=dark" alt="languages" />
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=django,mysql,git,vscode&theme=dark" alt="tools" />
+<img src="https://skillicons.dev/icons?i=py,c,git,vscode,mysql,ps&theme=dark" alt="languages & tools" />
 
 </div>
 
