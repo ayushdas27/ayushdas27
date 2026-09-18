@@ -131,6 +131,24 @@ const ayush = {
 
 <br/>
 
+<!-- ── LEETCODE ──────────────────────────────────────────────── -->
+
+<h2 align="center">leetcode</h2>
+
+<div align="center">
+
+<a href="https://leetcode.com/u/ayushdas27/">
+  <img src="https://leetcard.jacoblin.cool/ayushdas27?theme=dark&font=JetBrains%20Mono&ext=heatmap" alt="LeetCode Stats" />
+</a>
+
+<br/><br/>
+
+<a href="https://leetcode.com/u/ayushdas27/">
+  <img src="https://img.shields.io/badge/leetcode-profile-0f172a?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode Profile" />
+</a>
+
+</div>
+
 <!-- ── LANGUAGES & TOOLS ─────────────────────────────────────── -->
 
 <h2 align="center">languages & tools</h2>
