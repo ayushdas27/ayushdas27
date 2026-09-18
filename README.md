@@ -133,10 +133,6 @@ const ayush = {
 
 <!-- ── LEETCODE ──────────────────────────────────────────────── -->
 
-<br/>
-
-<!-- ── LEETCODE ──────────────────────────────────────────────── -->
-
 <h2 align="center">leetcode</h2>
 
 <div align="center">
@@ -144,7 +140,7 @@ const ayush = {
 <a href="https://leetcode.com/u/ayushdas27/">
   <img
     src="https://leetcard.jacoblin.cool/ayushdas27?theme=dark&font=JetBrains%20Mono&ext=heatmap"
-    width="90%"
+    width="87%"
     alt="LeetCode Stats"
   />
 </a>
