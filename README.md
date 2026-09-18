@@ -22,15 +22,15 @@
 
 <!-- ── ABOUT ─────────────────────────────────────────────────── -->
 
-<table>
+<table width="100%" style="border-collapse: collapse; border: 1px solid #1e293b; border-radius: 12px; overflow: hidden; background: #060b13;">
 <tr>
-<td width="60%" valign="middle">
+<td width="65%" valign="top" style="padding: 24px; font-family: 'JetBrains Mono', 'Fira Code', monospace;">
 
 ```typescript
 const ayush = {
     pronouns    : "he" as const,
     title       : "B.Tech CSE (AI/ML) · DPS Siliguri Alumnus",
-    stack       : ["Python", "C", "C#", "TypeScript", "Django", "MySQL"],
+    stack       : ["Python", "C", "TypeScript", "MySQL"],
     projects    : {
         urbanSight : "AI-powered urban intelligence — CV + geospatial",
         lunarAlign : "Chandrayaan-2 lunar image correspondence system",
@@ -47,13 +47,15 @@ const ayush = {
 ```
 
 </td>
-<td width="40%" valign="middle" align="center">
-
-<img alt="Developer at work" width="300" height="300" style="object-fit:cover;" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
-
+<td width="35%" valign="middle" align="center" style="padding: 20px; border-left: 1px solid #1e293b; background: #08111e;">
+  <img alt="Developer at work" width="220" style="border-radius: 12px; opacity: 0.9; filter: contrast(1.05) saturate(1.1);" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
+  <br/><br/>
+  <code style="color: #a3e635; font-size: 11px;">system.status: executing ⚡</code>
 </td>
 </tr>
 </table>
+
+<br/>
 
 <!-- ── FEATURED PROJECTS ─────────────────────────────────────── -->
 
