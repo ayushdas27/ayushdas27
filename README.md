@@ -140,7 +140,7 @@ const ayush = {
 <a href="https://leetcode.com/u/ayushdas27/">
   <img
     src="https://leetcard.jacoblin.cool/ayushdas27?theme=dark&font=JetBrains%20Mono&ext=heatmap"
-    width="87%"
+    width="79%"
     alt="LeetCode Stats"
   />
 </a>
