@@ -162,11 +162,14 @@ const ayush = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,c,git,vscode,mysql,ps&theme=dark" alt="languages & tools" />
-
-</div>
+<img src="https://skillicons.dev/icons?i=py,c,git,vscode,mysql,ps,arduino,androidstudio&theme=dark" alt="languages & tools" />
 
 <br/>
+
+<img src="https://img.shields.io/badge/FL_Studio-000000?style=for-the-badge&logo=flstudio&logoColor=white" alt="FL Studio" height="28"/>
+<img src="https://img.shields.io/badge/DaVinci_Resolve-233A51?style=for-the-badge&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" height="28"/>
+
+</div>
 
 <!-- ── STATS ──────────────────────────────────────────────────── -->
 
