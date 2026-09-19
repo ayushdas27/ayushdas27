@@ -205,6 +205,6 @@ const ayush = {
 
 <div align="center">
 
-<img src="./assets/ayush_das_github_footer.svg" width="100%" alt="Animated footer" />
+<img src="./ayush_das_github_footer.svg" width="100%" alt="Animated footer" />
 
 </div>
