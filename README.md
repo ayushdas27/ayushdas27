@@ -59,7 +59,7 @@ const ayush = {
 
 <!-- ── FEATURED PROJECTS ─────────────────────────────────────── -->
 
-<h2 align="center">projects</h2>
+<h2 align="center">PROJECTS</h2>
 
 <div align="center">
 <table>
