@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes draw {
+      from { stroke-dashoffset: 1500; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes fillIn {
+      from { fill-opacity: 0; }
+      to { fill-opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseLine {
+      0%, 100% { opacity: 0.15; }
+      50% { opacity: 0.4; }
+    }
+
+    .bg { fill: #0a0f1a; }
+    .grid { stroke: #1e293b; stroke-width: 0.5; }
+    .accent { stroke: url(#lineGrad); stroke-width: 1; animation: pulseLine 4s ease-in-out infinite; }
+
+    .name-stroke {
+      font-family: 'Courier New', monospace;
+      font-size: 72px;
+      font-weight: bold;
+      letter-spacing: 12px;
+      fill: none;
+      stroke: url(#textGrad);
+      stroke-width: 1.5;
+      stroke-dasharray: 1500;
+      stroke-dashoffset: 1500;
+      animation: draw 3.5s ease-out forwards;
+      filter: url(#glow);
+    }
+
+    .name-fill {
+      font-family: 'Courier New', monospace;
+      font-size: 72px;
+      font-weight: bold;
+      letter-spacing: 12px;
+      fill: url(#textGrad);
+      fill-opacity: 0;
+      animation: fillIn 2s ease forwards;
+      animation-delay: 2.5s;
+    }
+
+    .sub {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      fill: #64748b;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+      animation-delay: 3.2s;
+    }
+    .sub-hl { fill: #34d399; }
+
+    .cursor {
+      fill: #34d399;
+      opacity: 0;
+      animation: blink 1s step-end infinite;
+      animation-delay: 3.5s;
+    }
+
+    .dot { opacity: 0; animation: fadeIn 0.3s ease forwards; }
+    .d1 { animation-delay: 0.3s; }
+    .d2 { animation-delay: 0.5s; }
+    .d3 { animation-delay: 0.7s; }
+
+    .brace {
+      font-family: 'Courier New', monospace;
+      font-size: 80px;
+      fill: none;
+      stroke: #1e293b;
+      stroke-width: 1.5;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+      animation-delay: 0.2s;
+    }
+  </style>
+
+  <!-- background -->
+  <rect class="bg" width="900" height="280" rx="8"/>
+
+  <!-- grid + accent lines -->
+  <line class="grid" x1="0" y1="70" x2="900" y2="70"/>
+  <line class="grid" x1="0" y1="210" x2="900" y2="210"/>
+  <line class="accent" x1="100" y1="70" x2="800" y2="70"/>
+  <line class="accent" x1="100" y1="210" x2="800" y2="210"/>
+
+  <!-- terminal dots -->
+  <circle class="dot d1" cx="20" cy="20" r="4" fill="#34d399"/>
+  <circle class="dot d2" cx="38" cy="20" r="4" fill="#7dd3fc"/>
+  <circle class="dot d3" cx="56" cy="20" r="4" fill="#475569"/>
+
+  <!-- decorative braces -->
+  <text class="brace" x="55" y="165">{</text>
+  <text class="brace" x="800" y="165">}</text>
+
+  <!-- name: stroke draw animation -->
+  <text x="450" y="155" text-anchor="middle" class="name-stroke">AYUSH DAS</text>
+  <!-- name: gradient fill after stroke -->
+  <text x="450" y="155" text-anchor="middle" class="name-fill">AYUSH DAS</text>
+
+  <!-- subtitle -->
+  <text x="450" y="242" text-anchor="middle" class="sub">
+    <tspan class="sub-hl">$ </tspan>btech cse (ai/ml)  ·  aspiring ml engineer  ·  shipping cool things
+  </text>
+
+  <!-- blinking cursor -->
+  <rect class="cursor" x="740" y="228" width="8" height="15" rx="1"/>
+</svg>

@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- ── HEADER ─────────────────────────────────────────────────── -->
+<!-- ── ANIMATED HEADER ────────────────────────────────────────── -->
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:7dd3fc,100:34d399&height=220&section=header&text=Ayush%20Das&fontSize=70&animation=twinkling&fontAlignY=35&desc=B.Tech%20CSE%20(AI%2FML)%20%E2%80%A2%20Aspiring%20ML%20Engineer&descAlignY=55&descAlign=50&fontColor=ffffff&descSize=18)
+<img src="./header.svg" width="100%" alt="Ayush Das — B.Tech CSE (AI/ML)" />
 
 <br/>
 
