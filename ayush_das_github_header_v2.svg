@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Animated GitHub header for Ayush Das">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070b"/>
+      <stop offset="55%" stop-color="#0a0f16"/>
+      <stop offset="100%" stop-color="#05070b"/>
+    </linearGradient>
+
+    <!-- Blue → green gradient ONLY for AYUSH DAS -->
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="48%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+
+    <!-- Letter-by-letter reveal/erase mask -->
+    <mask id="nameReveal">
+      <rect x="90" y="80" width="1020" height="120" fill="black"/>
+      <rect x="90" y="80" width="0" height="120" fill="white">
+        <animate attributeName="width"
+          values="0;0;80;160;240;320;400;480;560;640;720;800;880;960;1020;1020;1020;1020;1020;1020;1020;1020;1020;1020;0;0"
+          keyTimes="0;.02;.05;.08;.11;.14;.17;.20;.23;.26;.29;.32;.35;.38;.41;.45;.50;.55;.60;.65;.70;.75;.80;.85;.90;1"
+          dur="5.5s" repeatCount="indefinite"/>
+      </rect>
+    </mask>
+  </defs>
+
+  <style>
+    .name {
+      font-family: "Courier New", "Lucida Console", monospace;
+      font-size: 82px;
+      font-weight: 700;
+      letter-spacing: 13px;
+    }
+    .sub {
+      font-family: "Courier New", "Lucida Console", monospace;
+      font-size: 16px;
+      letter-spacing: 5px;
+      fill: #94a3b8;
+    }
+    .terminal {
+      font-family: "Courier New", "Lucida Console", monospace;
+      font-size: 16px;
+      letter-spacing: 1px;
+      fill: #7f8ea3;
+    }
+    .prompt {
+      fill: #34d399;
+    }
+    .cursor {
+      animation: blink 1s steps(1,end) infinite;
+    }
+    .scan {
+      animation: scan 4s linear infinite;
+    }
+    .float {
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+      0%, 48% { opacity: 1; }
+      49%, 100% { opacity: 0; }
+    }
+    @keyframes scan {
+      0% { transform: translateY(-25px); opacity: 0; }
+      8% { opacity: .45; }
+      92% { opacity: .45; }
+      100% { transform: translateY(325px); opacity: 0; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="url(#grid)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Minimal corner accents -->
+  <path d="M42 72V42H72" fill="none" stroke="#7dd3fc" stroke-width="2" opacity=".7"/>
+  <path d="M1158 228V258H1128" fill="none" stroke="#a7f3d0" stroke-width="2" opacity=".55"/>
+
+  <!-- Small status line -->
+  <g transform="translate(100 55)">
+    <circle cx="5" cy="0" r="4" fill="#7dd3fc">
+      <animate attributeName="opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="5" class="sub">AYUSH DAS / DEVELOPER</text>
+  </g>
+
+  <!-- Main name: revealed one character at a time, holds for 2s, erases, waits .7s -->
+  <g class="float" mask="url(#nameReveal)">
+    <text x="100" y="178" class="name" fill="url(#nameGradient)" filter="url(#glow)">AYUSH DAS</text>
+    <text x="100" y="178" class="name" fill="#e2e8f0" opacity=".88">AYUSH DAS</text>
+  </g>
+
+  <!-- Blinking cursor follows the typing/reveal area -->
+  <rect x="1012" y="113" width="6" height="70" rx="2"
+        fill="#34d399" class="cursor" filter="url(#glow)"/>
+
+  <!-- Underline -->
+  <rect x="100" y="202" width="1000" height="1" fill="#334155"/>
+  <rect x="100" y="202" width="300" height="2" fill="url(#nameGradient)">
+    <animate attributeName="x" values="100;800;100" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom terminal-style text -->
+  <text x="100" y="242" class="terminal">
+    <tspan class="prompt">$</tspan>
+    <tspan dx="10">btech cse (ai/ml) · aspiring ai/ml engineer · shipping cool things</tspan>
+  </text>
+  <rect x="1110" y="225" width="10" height="20" rx="1" fill="#34d399" class="cursor"/>
+
+  <!-- Animated scanline -->
+  <g class="scan">
+    <rect x="70" y="0" width="1060" height="2" fill="#7dd3fc" opacity=".35" filter="url(#glow)"/>
+  </g>
+</svg>
