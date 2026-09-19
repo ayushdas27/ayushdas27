@@ -205,6 +205,6 @@ const ayush = {
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:34d399,100:7dd3fc&height=100&section=footer)
+<img src="./assets/ayush_das_github_footer.svg" width="100%" alt="Animated footer" />
 
 </div>
