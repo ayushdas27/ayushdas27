@@ -133,7 +133,7 @@ const ayush = {
 
 <!-- ── LEETCODE ──────────────────────────────────────────────── -->
 
-<h2 align="center">leetcode</h2>
+<h2 align="center">LEETCODE</h2>
 
 <div align="center">
 
@@ -158,7 +158,7 @@ const ayush = {
 
 <!-- ── LANGUAGES & TOOLS ─────────────────────────────────────── -->
 
-<h2 align="center">languages & tools</h2>
+<h2 align="center">lANGUAGES & TOOLS</h2>
 
 <div align="center">
 
@@ -166,14 +166,14 @@ const ayush = {
 
 <br/>
 
-<img src="https://img.shields.io/badge/FL_Studio-000000?style=for-the-badge&logo=flstudio&logoColor=white" alt="FL Studio" height="28"/>
-<img src="https://img.shields.io/badge/DaVinci_Resolve-233A51?style=for-the-badge&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" height="28"/>
+<img src="https://img.shields.io/badge/FL_Studio-000000?style=for-the-badge&logo=flstudio&logoColor=white" alt="FL Studio" height="30"/>
+<img src="https://img.shields.io/badge/DaVinci_Resolve-233A51?style=for-the-badge&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" height="30"/>
 
 </div>
 
 <!-- ── STATS ──────────────────────────────────────────────────── -->
 
-<h2 align="center">stats</h2>
+<h2 align="center">STATS</h2>
 
 <div align="center">
 
@@ -185,7 +185,7 @@ const ayush = {
 
 <!-- ── CONNECT ────────────────────────────────────────────────── -->
 
-<h2 align="center">connect</h2>
+<h2 align="center">CONNECT</h2>
 
 <div align="center">
 
