@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" preserveAspectRatio="none">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03060a"/><stop offset=".48" stop-color="#071019"/><stop offset="1" stop-color="#03070b"/></linearGradient>
+<radialGradient id="b"><stop stop-color="#2563eb" stop-opacity=".16"/><stop offset=".55" stop-color="#0891b2" stop-opacity=".04"/><stop offset="1" stop-opacity="0"/></radialGradient>
+<radialGradient id="g"><stop stop-color="#10b981" stop-opacity=".13"/><stop offset=".55" stop-color="#14b8a6" stop-opacity=".04"/><stop offset="1" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7dd3fc" stroke-opacity=".028"/></pattern>
+<filter id="blur"><feGaussianBlur stdDeviation="28"/></filter><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+.flow{animation:flow 8s linear infinite}.flow2{animation:flow2 10s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}.pulse2{animation:pulse 4s ease-in-out infinite 1s}.scan{animation:scan 8s linear infinite}
+@keyframes flow{0%{transform:translateX(-500px);opacity:0}15%{opacity:.25}85%{opacity:.25}100%{transform:translateX(1500px);opacity:0}}
+@keyframes flow2{0%{transform:translateX(1500px);opacity:0}15%{opacity:.18}85%{opacity:.18}100%{transform:translateX(-500px);opacity:0}}
+@keyframes pulse{0%,100%{opacity:.1;transform:scale(1)}50%{opacity:.35;transform:scale(1.18)}}
+@keyframes scan{0%{transform:translateY(-100px);opacity:0}10%{opacity:.18}90%{opacity:.18}100%{transform:translateY(1700px);opacity:0}}
+</style>
+<rect width="1200" height="1600" fill="url(#bg)"/>
+<ellipse cx="100" cy="250" rx="500" ry="450" fill="url(#b)" filter="url(#blur)" class="pulse"/>
+<ellipse cx="1100" cy="1350" rx="500" ry="450" fill="url(#g)" filter="url(#blur)" class="pulse2"/>
+<rect width="1200" height="1600" fill="url(#grid)"/>
+<g class="flow"><path d="M-300 420C100 300 300 560 700 430S1200 330 1500 450" fill="none" stroke="#22d3ee" stroke-width="1" opacity=".35" filter="url(#glow)"/></g>
+<g class="flow2"><path d="M1500 1120C1150 980 950 1190 600 1080S100 990 -300 1140" fill="none" stroke="#34d399" stroke-width="1" opacity=".3" filter="url(#glow)"/></g>
+<path d="M36 0V1600M1164 0V1600" stroke="#1e293b" stroke-opacity=".35"/>
+<g fill="#60a5fa"><circle cx="120" cy="520" r="1.5" class="pulse"/><circle cx="310" cy="760" r="1" class="pulse2"/><circle cx="940" cy="380" r="1.2" class="pulse2"/><circle cx="1070" cy="920" r="1.4" class="pulse"/></g>
+<g fill="#34d399"><circle cx="220" cy="1180" r="1.2" class="pulse2"/><circle cx="790" cy="680" r="1.1" class="pulse"/><circle cx="1010" cy="1420" r="1.3" class="pulse2"/></g>
+<g class="scan"><rect x="60" y="0" width="1080" height="2" fill="#22d3ee" opacity=".2" filter="url(#glow)"/></g>
+</svg>

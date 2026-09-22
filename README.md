@@ -1,10 +1,6 @@
 <div align="center">
 
-<!-- ── README BACKGROUND ─────────────────────────────────────── -->
-
-<div style="background-image: url('./assets/ayush_das_readme_background.svg'); background-size: cover; background-position: center top; background-repeat: no-repeat;">
-
-<!-- ── ANIMATED HEADER ────────────────────────────────────────── -->
+<!-- ── ANIMATED HEADER & CYBER BACKGROUND ─────────────────────── -->
 
 <img src="./header.svg" width="100%" alt="Ayush Das — B.Tech CSE (AI/ML)" />
 

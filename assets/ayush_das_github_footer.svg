@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Animated minimal GitHub footer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070b"/>
+      <stop offset="55%" stop-color="#0a0f16"/>
+      <stop offset="100%" stop-color="#05070b"/>
+    </linearGradient>
+
+    <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="45%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <style>
+    .pulse {
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .pulse2 {
+      animation: pulse 2s ease-in-out infinite .5s;
+    }
+    .travel {
+      animation: travel 4s linear infinite;
+    }
+    .travel2 {
+      animation: travel2 4s linear infinite;
+    }
+    .scan {
+      animation: scan 4.5s linear infinite;
+    }
+    .orbit {
+      transform-origin: 600px 90px;
+      animation: orbit 8s linear infinite;
+    }
+    .orbit2 {
+      transform-origin: 600px 90px;
+      animation: orbit2 11s linear infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity:.25; transform:scale(1); }
+      50% { opacity:1; transform:scale(1.7); }
+    }
+    @keyframes travel {
+      0% { transform:translateX(-120px); opacity:0; }
+      8% { opacity:1; }
+      92% { opacity:1; }
+      100% { transform:translateX(1320px); opacity:0; }
+    }
+    @keyframes travel2 {
+      0% { transform:translateX(1320px); opacity:0; }
+      8% { opacity:1; }
+      92% { opacity:1; }
+      100% { transform:translateX(-120px); opacity:0; }
+    }
+    @keyframes scan {
+      0% { transform:translateY(-30px); opacity:0; }
+      10% { opacity:.35; }
+      90% { opacity:.35; }
+      100% { transform:translateY(210px); opacity:0; }
+    }
+    @keyframes orbit {
+      from { transform:rotate(0deg); }
+      to { transform:rotate(360deg); }
+    }
+    @keyframes orbit2 {
+      from { transform:rotate(360deg); }
+      to { transform:rotate(0deg); }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="180" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="178" rx="17"
+        fill="url(#grid)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Minimal corner accents -->
+  <path d="M42 55V25H72" fill="none" stroke="#60a5fa" stroke-width="2" opacity=".65"/>
+  <path d="M1158 125V155H1128" fill="none" stroke="#34d399" stroke-width="2" opacity=".55"/>
+
+  <!-- Central soft glow -->
+  <ellipse cx="600" cy="90" rx="300" ry="28"
+           fill="#22d3ee" opacity=".045" filter="url(#softGlow)"/>
+
+  <!-- Fine horizontal rails -->
+  <path d="M90 89 H1110" stroke="#1e293b" stroke-width="1"/>
+  <path d="M150 90 H1050" stroke="url(#gradient)" stroke-width="1" opacity=".18"/>
+
+  <!-- Animated flowing light -->
+  <g class="travel">
+    <rect x="0" y="87" width="115" height="2" rx="1"
+          fill="url(#gradient)" filter="url(#glow)"/>
+  </g>
+  <g class="travel2">
+    <rect x="0" y="91" width="75" height="1" rx="1"
+          fill="#60a5fa" filter="url(#glow)"/>
+  </g>
+
+  <!-- Central animated nodes -->
+  <g class="pulse">
+    <circle cx="360" cy="90" r="3" fill="#60a5fa"/>
+    <circle cx="360" cy="90" r="11" fill="none" stroke="#60a5fa" opacity=".3"/>
+  </g>
+
+  <g class="pulse2">
+    <circle cx="840" cy="90" r="3" fill="#34d399"/>
+    <circle cx="840" cy="90" r="11" fill="none" stroke="#34d399" opacity=".3"/>
+  </g>
+
+  <!-- Central geometric animation -->
+  <g class="orbit">
+    <circle cx="600" cy="28" r="2.5" fill="#60a5fa" filter="url(#glow)"/>
+  </g>
+
+  <g class="orbit2">
+    <circle cx="600" cy="145" r="2" fill="#34d399" filter="url(#glow)"/>
+  </g>
+
+  <!-- Central pulse -->
+  <circle cx="600" cy="90" r="4" fill="url(#gradient)" filter="url(#glow)">
+    <animate attributeName="r" values="3;7;3" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".45;1;.45" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Small floating particles -->
+  <g fill="#60a5fa">
+    <circle cx="210" cy="65" r="1.5" class="pulse"/>
+    <circle cx="285" cy="118" r="1.2" class="pulse2"/>
+    <circle cx="950" cy="62" r="1.3" class="pulse2"/>
+    <circle cx="1010" cy="116" r="1.5" class="pulse"/>
+  </g>
+
+  <g fill="#34d399">
+    <circle cx="430" cy="55" r="1.2" class="pulse2"/>
+    <circle cx="770" cy="125" r="1.4" class="pulse"/>
+    <circle cx="900" cy="48" r="1.1" class="pulse"/>
+  </g>
+
+  <!-- Animated scanline -->
+  <g class="scan">
+    <rect x="70" y="0" width="1060" height="2"
+          fill="url(#gradient)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="100" y="151" width="1000" height="1" fill="#1e293b"/>
+  <rect x="500" y="151" width="200" height="2" rx="1"
+        fill="url(#gradient)" opacity=".65">
+    <animate attributeName="x" values="500;700;300;500"
+             dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
