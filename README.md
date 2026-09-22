@@ -22,6 +22,14 @@
 
 <!-- ── ABOUT ─────────────────────────────────────────────────── -->
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="ayushdas27's GitHub profile" src="dark_mode.svg" />
+</picture>
+
+<!-------ascci-->
+
 <table width="100%" style="border-collapse: collapse; border: 1px solid #1e293b; border-radius: 12px; overflow: hidden; background: #060b13;">
 <tr>
 <td width="65%" valign="top" style="padding: 24px; font-family: 'JetBrains Mono', 'Fira Code', monospace;">
