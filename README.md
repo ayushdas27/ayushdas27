@@ -1,61 +1,39 @@
-# AYUSH DAS · GitHub Profile
+#Ayush Das Readme
 
-<div align="center">
+<p align="center">
+  <img src="./assets/hero.svg?v=4" width="100%" alt="Hi, I'm Ayush Das — B.Tech CSE (AI/ML) Student at SRMIST, based in Siliguri. Building with AI, software, and data." />
+</p>
 
-![Hero](assets/hero.svg?v=1)
+<img src="./assets/about-life.svg?v=4" width="100%" alt="Computer Science student passionate about AI and machine learning, programming, databases, problem solving, and building practical technology projects. Beyond academics: music, athletics, drawing, and creative content." />
 
-![About & life](assets/about-life.svg?v=1)
+<img src="./assets/stack.svg?v=4" width="100%" alt="My stack: Python, C, SQL, HTML, JavaScript, Streamlit, FastAPI, OpenCV, NumPy, and AI and machine learning technologies." />
 
-![Stack](assets/stack.svg?v=1)
+### Things I've built
 
-![Verified dashboard](assets/id-dashboard.svg?v=1)
+| Project | What it does | Focus |
+| :--- | :--- | :--- |
+| **[Urban Mobility & Civic Monitoring Platform](https://github.com/ayushdas27/urban-mobility-intelligence-platform)** | AI-powered mobile urban intelligence platform that turns public-transport fleets into sensing units for detecting road hazards, traffic issues, waterlogging, electrical hazards, and incidents. | AI + Computer Vision + Smart Cities |
+| **[LUNAR ALIGN](https://github.com/ayushdas27/lunar-align)** | Automated multi-sensor lunar image registration using SIFT, RootSIFT, Lowe-ratio matching, RANSAC, homography estimation, and overlap analysis. | Computer Vision + Space Technology |
+| **[Crop Health Monitoring](https://github.com/ayushdas27/crop-health-monitor)** | Satellite-based agricultural monitoring dashboard using Sentinel-2 MSI data, NDVI, NDRE, cadastral mapping, and multi-temporal crop-stress detection. | AI + Agriculture + Remote Sensing |
 
-![Connect](assets/connect.svg?v=1)
+<p align="center">
+  <a href="https://github.com/ayushdas27?tab=repositories">
+    More projects coming soon →
+  </a>
+</p>
 
-</div>
+<img src="./assets/id-dashboard.svg?v=4" width="100%" alt="Ayush Das's builder ID and GitHub dashboard. Snapshot: October 7, 2026." />
 
-## Selected projects
+<img src="./assets/connect.svg?v=4" width="100%" alt="Let's build what's next. Connect with Ayush Das on LinkedIn, X, Instagram, GitHub, or email." />
 
-| Project | What it does |
-|---|---|
-| [Urban Mobility & Civic Monitoring Platform](https://github.com/ayushdas27/urban-mobility-intelligence-platform) | AI-powered fleet sensing for road hazards, traffic, waterlogging, electrical hazards and civic routing. |
-| [LUNAR ALIGN](https://github.com/ayushdas27/lunar-align) | Feature-based multi-sensor lunar image registration using SIFT/RootSIFT, Lowe-ratio matching, RANSAC and homography estimation. |
-| [Crop Health Monitoring System](https://github.com/ayushdas27/crop-health-monitor) | Satellite crop monitoring with Sentinel-2 data, NDVI/NDRE analytics, cadastral mapping and multi-temporal stress detection. |
+<p align="center">
+  <a href="https://www.linkedin.com/in/ayushdasofficial27112007/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://x.com/das_ayushh">X — @das_ayushh</a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/yu.shhh_/">Instagram — @yu.shhh_</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ayushdas27">GitHub — @ayushdas27</a> &nbsp;·&nbsp;
+  <a href="mailto:ayushdps2020@gmail.com">Email</a>
+</p>
 
-[More repositories →](https://github.com/ayushdas27?tab=repositories) · more coming soon.
-
-## Socials
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-247bff?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushdasofficial27112007/)
-[![X](https://img.shields.io/badge/X-@das_ayushh-070b16?style=flat&logo=x&logoColor=white)](https://x.com/das_ayushh)
-[![Instagram](https://img.shields.io/badge/Instagram-@yu.shhh_-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yu.shhh_)
-[![Email](https://img.shields.io/badge/Email-ayushdps2020%40gmail.com-ff354f?style=flat&logo=gmail&logoColor=white)](mailto:ayushdps2020@gmail.com)
-
-## Assets & fonts
-
-- `assets/id.png` — supplied portrait, preserved with alpha.
-- `assets/right_pointing.png` — supplied connect portrait, preserved with alpha.
-- `fonts/DisplaySans.woff2` — embedded display font.
-- `fonts/Mono.woff2` — embedded monospace font.
-- Font source: system-installed DejaVu Sans family; bundled locally and used only inside the SVGs.
-- License: DejaVu Fonts are distributed under the Bitstream Vera / Public Domain license terms; see `FONTS-LICENSE.txt`.
-
-## Upload checklist
-
-Upload these files/folders to the root of your profile repository:
-
-```text
-README.md
-assets/hero.svg
-assets/about-life.svg
-assets/stack.svg
-assets/id-dashboard.svg
-assets/connect.svg
-assets/id.png
-assets/right_pointing.png
-fonts/DisplaySans.woff2
-fonts/Mono.woff2
-FONTS-LICENSE.txt
-```
-
-Do not upload the generated render previews unless you want them for local testing.
+<p align="center">
+  <sub>Curious by default. Building with intent. ⚡</sub>
+</p>
