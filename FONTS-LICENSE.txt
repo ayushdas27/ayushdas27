@@ -1,0 +1,3 @@
+DejaVu Fonts license notice
+
+These bundled WOFF2 files are generated from the system-installed DejaVu Sans family. The DejaVu Fonts project permits use, modification, and redistribution under its license terms. For the full license text, see the DejaVu Fonts distribution provided by your operating system.
