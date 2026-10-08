@@ -25,5 +25,3 @@
   <a href="https://www.instagram.com/yu.shhh_/">Instagram — @yu.shhh_</a> &nbsp;·&nbsp;
   <a href="mailto:ayushdps2020@gmail.com">Email — ayushdps2020@gmail.com</a> 
 </p>
-
-<p align="center"><sub>minimal. chill. shipping anyway. ⚡</sub></p>
