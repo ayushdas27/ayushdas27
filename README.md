@@ -18,10 +18,3 @@
 <img src="./assets/id-dashboard.svg?v=8" width="100%" alt="AYUSH DAS's builder ID and public dashboard. Snapshot: October 2026." />
 
 <img src="./assets/connect.svg?v=8" width="100%" alt="Let's build what's next. Connect on LinkedIn, follow on X (@das_ayushh), follow on Instagram (@yu.shhh_), or reach out via Email (ayushdps2020@gmail.com)." />
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ayushdasofficial27112007">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://x.com/das_ayushh">X (Twitter) — @das_ayushh</a> &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/yu.shhh_/">Instagram — @yu.shhh_</a> &nbsp;·&nbsp;
-  <a href="mailto:ayushdps2020@gmail.com">Email — ayushdps2020@gmail.com</a> 
-</p>
