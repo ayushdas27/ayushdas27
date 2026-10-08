@@ -33,7 +33,6 @@
         <img src="./assets/connect-instagram.svg?v=1" width="100%" alt="Instagram · @yu.shhh_" />
       </a>
       <br/>
-      <br/>
       <a href="https://x.com/das_ayushh" target="_blank">
         <img src="./assets/connect-x.svg?v=1" width="100%" alt="X (Twitter) · @das_ayushh" />
       </a>
