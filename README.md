@@ -28,15 +28,15 @@
       <a href="https://www.linkedin.com/in/ayushdasofficial27112007" target="_blank">
         <img src="./assets/connect-linkedin.svg?v=1" width="100%" alt="LinkedIn · in/ayushdasofficial27112007" />
       </a>
-      <br/>
-      <a href="https://x.com/das_ayushh" target="_blank">
-        <img src="./assets/connect-x.svg?v=1" width="100%" alt="X (Twitter) · @das_ayushh" />
-      </a>
-      <br/>
+       <br/>
       <a href="https://www.instagram.com/yu.shhh_/" target="_blank">
         <img src="./assets/connect-instagram.svg?v=1" width="100%" alt="Instagram · @yu.shhh_" />
       </a>
       <br/>
+      <br/>
+      <a href="https://x.com/das_ayushh" target="_blank">
+        <img src="./assets/connect-x.svg?v=1" width="100%" alt="X (Twitter) · @das_ayushh" />
+      </a>
       <a href="mailto:ayushdps2020@gmail.com">
         <img src="./assets/connect-email.svg?v=1" width="100%" alt="Email · ayushdps2020@gmail.com" />
       </a>
