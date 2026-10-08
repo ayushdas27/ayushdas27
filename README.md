@@ -45,5 +45,3 @@
     </td>
   </tr>
 </table>
-
-<p align="center"><sub>minimal. chill. shipping anyway. ⚡</sub></p>
