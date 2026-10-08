@@ -1,11 +1,11 @@
 <!-- AYUSH DAS · GitHub Profile -->
 <p align="center">
-  <img src="./assets/hero.svg?v=5" width="100%" alt="Hi, I'm AYUSH DAS — Siliguri, India. Building AI-powered software, spatial systems and civic intelligence." />
+  <img src="./assets/hero.svg?v=6" width="100%" alt="Hi, I'm AYUSH DAS — Siliguri, India. Building ML systems one project at a time · AI/ML Enthusiast." />
 </p>
 
-<img src="./assets/about-life.svg?v=5" width="100%" alt="Modern web and app development, AI and cloud integration, community mentorship. Beyond work: creating tech content, 1:1 career mentorship, and competitive programming." />
+<img src="./assets/about-life.svg?v=6" width="100%" alt="Modern web and app development, AI and cloud integration, community mentorship. Beyond work: creating tech content, 1:1 career mentorship, and competitive programming." />
 
-<img src="./assets/stack.svg?v=5" width="100%" alt="My stack: Java, TypeScript, Python, React, Next.js, Node.js, Express, AWS, and LLM APIs." />
+<img src="./assets/stack.svg?v=6" width="100%" alt="My stack: Java, TypeScript, Python, React, Next.js, Node.js, Express, AWS, and LLM APIs." />
 
 ### Things I've built
 
@@ -15,9 +15,9 @@
 | [**LUNAR ALIGN**](https://github.com/ayushdas27/lunar-align) | Feature-based multi-sensor lunar image registration using SIFT/RootSIFT, Lowe-ratio matching, RANSAC and homography estimation | Spatial AI + Space Tech |
 | [**Crop Health Monitoring System**](https://github.com/ayushdas27/crop-health-monitor) | Satellite crop monitoring with Sentinel-2 data, NDVI/NDRE analytics, cadastral mapping and multi-temporal stress detection | Remote Sensing + AgriTech |
 
-<img src="./assets/id-dashboard.svg?v=5" width="100%" alt="AYUSH DAS's builder ID and public dashboard. Snapshot: October 2026." />
+<img src="./assets/id-dashboard.svg?v=6" width="100%" alt="AYUSH DAS's builder ID and public dashboard. Snapshot: October 2026." />
 
-<img src="./assets/connect.svg?v=5" width="100%" alt="Let's build what's next. Connect on LinkedIn, follow on X (@das_ayushh), follow on Instagram (@yu.shhh_), or reach out via Email (ayushdps2020@gmail.com)." />
+<img src="./assets/connect.svg?v=6" width="100%" alt="Let's build what's next. Connect on LinkedIn, follow on X (@das_ayushh), follow on Instagram (@yu.shhh_), or reach out via Email (ayushdps2020@gmail.com)." />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ayushdasofficial27112007">LinkedIn</a> &nbsp;·&nbsp;
@@ -26,4 +26,4 @@
   <a href="mailto:ayushdps2020@gmail.com">Email — ayushdps2020@gmail.com</a> 
 </p>
 
-<p align="center"><sub>Curious by default. Building with intent.</sub></p>
+<p align="center"><sub>minimal. chill. shipping anyway. ⚡</sub></p>
